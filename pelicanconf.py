@@ -68,3 +68,5 @@ HIDE_SITENAME=True
 # This documentation is designed to be hosted in a sub domain of a root
 # domain.
 ROOT_URL="http://wasatchphotonics.com"
+
+GOOGLE_ANALYTICS = "UA-80392935-1"
