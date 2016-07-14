@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Home Page - Devices</title>
+    <title>Available Manuals - Devices</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,19 +9,16 @@
 
 
 
-<link rel="canonical" href="/home-page.html">
+<link rel="canonical" href="/pages/available-manuals.html">
 
         <meta name="author" content="Wasatch Photonics" />
         <meta name="description" content="Dash 3 Manual:" />
 
-        <meta property="og:site_name" content="Devices" />
-        <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Home Page"/>
-        <meta property="og:url" content="/home-page.html"/>
-        <meta property="og:description" content="Dash 3 Manual:"/>
-        <meta property="article:published_time" content="2016-05-27" />
-            <meta property="article:section" content="Home" />
-            <meta property="article:author" content="Wasatch Photonics" />
+    <meta property="og:site_name" content="Devices" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Available Manuals"/>
+    <meta property="og:url" content="/pages/available-manuals.html"/>
+    <meta property="og:description" content="Dash 3 Manual:" />
 
 
     <!-- Bootstrap -->
@@ -93,7 +90,8 @@
                     <a href="http://wasatchphotonics.com/cart">
                         Cart
                     </a>
-                </li>
+				</li>
+
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
@@ -108,17 +106,14 @@
 	    background-color: #28282e;
         padding:20px;
 	}
-
     .title_location {
         color: #fff;
     }
-
     .phone_green {
         color: #3d996b;
         font-weight: 700;
         font-size: 1.5em;
     }
-
 </style>
 
 <div id="wasatch_banner">
@@ -144,17 +139,18 @@
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- wasatch banner --><!-- End Banner -->
+
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-    <section id="content">
-        <article>
-            <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-                    </div>
-                </div>
-                <div class="container">
+    <section id="content" class="body">
+        <!-- Don't display the page title
+        <h1 class="entry-title">Available Manuals</h1>
+        !-->
+        <br>
+        
+        <div class="entry-content">
+            <div class="container">
     <div class="row">
         <div class="col-sm-3" style="vertical-align: middle;">
             <a href="/manuals/Dash3">Dash 3 Manual</a>:
@@ -163,11 +159,8 @@
         </div>
     </div>
 </div>
-            </div>
-            <!-- /.entry-content -->
-        </article>
+        </div>
     </section>
-
         </div>
     </div>
 </div>
@@ -175,7 +168,7 @@
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2016 Wasatch Photonics
+         <div class="col-xs-10">&copy; 2013 Wasatch Photonics
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
@@ -191,7 +184,23 @@
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="/theme/js/respond.min.js"></script>
 
-    <script src="/theme/js/bodypadding.js"></script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-80392935-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
 
 </body>
 </html>
