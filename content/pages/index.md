@@ -1,9 +1,8 @@
-Title: Home Page
+Title: Available Manuals
 Date: 2016-05-27
 Category: Home
 save_as: index.html
-Template: index
-
+status: hidden
 
 <div class="container">
     <div class="row">
