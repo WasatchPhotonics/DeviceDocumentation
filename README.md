@@ -9,8 +9,8 @@ Static site generation for Wasatch Photonics devices and software.
     Clone the wasatch pelican-themes fork into:
     git clone https://github.com/WasatchPhotonics/pelican-themes ~/projects/pelican-themes
 
-    conda create --name pelican_env pip
     export PATH=~/miniconda2/bin:$PATH
+    conda create --name pelican_env pip
     source activate pelican_env
     pip install pelican MarkDown ghp-import
     

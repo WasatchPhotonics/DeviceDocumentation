@@ -24,6 +24,7 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+GOOGLE_ANALYTICS = "UA-80392935-1"
 
 
 STATIC_PATHS = ['images', 'files', 'extra/robots.txt',
@@ -53,9 +54,9 @@ DISPLAY_CATEGORIES_ON_MENU=False
 
 # Show the colorful banner image on all pages
 #BANNER = 'images/wasatch_logo_rev_main.png'
-BANNER = 'images/banner.png'
-BANNER_ALL_PAGES = True
-BANNER_SUBTITLE = "Wasatch Photonics"
+#BANNER = 'images/banner.png'
+#BANNER_ALL_PAGES = True
+#BANNER_SUBTITLE = "Wasatch Photonics"
 
 # don't show any of the right side info
 HIDE_SIDEBAR=True

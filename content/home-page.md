@@ -2,7 +2,7 @@ Title: Home Page
 Date: 2016-05-27
 Category: Home
 save_as: index.html
-Template: new_index
+Template: index
 
 
 <div class="container">
