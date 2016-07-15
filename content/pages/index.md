@@ -5,7 +5,7 @@ save_as: index.html
 status: hidden
 
 <div class="container">
-    <div class="row" style="margin-top: 30px">
+    <div class="row">
         <div class="col-sm-3" style="vertical-align: middle;">
             <a href="/manuals/Dash3">Dash 3 Manual</a>:
         </div>
