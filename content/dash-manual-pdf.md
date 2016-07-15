@@ -115,7 +115,9 @@ There are seven tabs available under the Options Toggle button found in the purp
 ## 3. Working with stored data
 
 ### Overlaying spectra
-After storing data using either the Store or Record tool, the stored data list will appear in the main interface. Select individual records by clicking on them, or use the shift and control buttons on your keyboard to select groups of records. After selection, click the **Update Graph** green button to show the selected entries in the main graph area. Double click the note field to type in notes specific for a data entry.
+After storing data using either the Store or Record tool, the stored data list will appear in the main interface. Select an individual spectrum by clicking on it, or use the shift and control buttons on your keyboard to select groups of spectra. After selection, click the **Update Graph** button to show the selected entries in the main graph area. Double click the note field to type in notes specific to individual spectra.
+
+
 
 ### Subtracting blanks
 The **Make Blank** button us used to assign a particular spectra from the history as a "Blank Spectra". This means that any spectra viewed after assigning a blank has the blank specta subtracted from it. To "unassign" a blank, choose the blank frame and hit the "make unblank" button. Note that if the spectra history is saved to file, only the raw data is saved, not the subtracted spectra. However, one can manually subtract spectra since all of the history, including annotations of which frame is blank spectra frame, is saved to file.
@@ -124,7 +126,7 @@ The **Make Blank** button us used to assign a particular spectra from the histor
 Use the Clear button to remove all spectra from the recorded data area and the delete selected spectra button to remove individual entries.
 
 ### Averaging spectra
-Consider the following narrative to create an average of 10 spectra: Go to the Options > Acquisition tab, and set the record spectra control entry to 10. Position the sample as required, then click the Record button. Shift-click the first and last entries in the recorded spectra area, then click the Average button. The user will then see a new entry added in the recorded spectra area that comprises an average of the selected spectra, with an appropriate designation in the note field.
+Consider the following narrative to create an average of 10 spectra: Go to the Options > Acquisition tab, and set the record spectra control entry to 10. Position the sample as required, then click the Record button. Shift-click the first and last entries in the recorded data area, then click the Average button. A new entry will be added in the recorded data area that comprises an average of the selected spectra, with an appropriate designation in the note field.
 
 ## 4. External input/output control
 On certain systems equipped with the External I/O board, the connection is shown in detail below:
