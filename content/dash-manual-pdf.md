@@ -69,6 +69,7 @@ There are seven tabs available under the Options Toggle button found in the purp
 
 #### CCD Options Tab
 ![CCD](/images/dash3_manual/options_ccd.png)
+
 - **IntegrationTime:** Time in milliseconds to integrate during capture.
 - **Offset:** Larger values move the spectrum upwards. Valid numbers can range from 0 to 65,533.
 - **Gain:** Digital gain value is a floating point. ranging from 0.0 to 10.0.
@@ -81,6 +82,7 @@ There are seven tabs available under the Options Toggle button found in the purp
 
 #### CMOS Options Tab
 ![CMOS](/images/dash3_manual/options_cmos.png)
+
 - **Offset:** Larger values will move the spectrum up, smaller numbers will move the spectrum down. Valid inputs range from 0 to 255.
 - **Gain:** Adjusts the gain of the CMOS sensor. Valid inputs range from 0 to 255.
 - **Line Time:** Time in microsconds for a single data capture.
@@ -90,21 +92,27 @@ There are seven tabs available under the Options Toggle button found in the purp
 
 #### Light Source Options Tab
 ![Light Source](/images/dash3_manual/options_light_source.png)
+
 - **Source Wavelength:** Specifies the source wavelength in nanometers for correct calibration in the Wavenumber view.
+
 #### Calibration Options Tab
 ![Calibration](/images/dash3_manual/options_calibrate.png)
+
 - Calibration coefficients should match those provided by Wasatch Photonics. If you change these values by accident. Search for your device on http://www.waspho.com/ using your instrument's serial number. This will list the coefficients used when your device was shipped.
 
 #### Acquisition Options Tab
 ![Aquisition](/images/dash3_manual/options_acquire.png)
+
 - **Record:** Specifies the number of acquisitions to store when the Record button is clicked or tapped.
 
 #### Logging Options Tab
 ![Logging](/images/dash3_manual/options_logging.png)
+
 - Show detailed information on the Dash spectrometer control software underlying processes not usually shown to the user.
 
 #### InGaAs Options Tab
 ![InGaAs](/images/dash3_manual/options_ingaas.png)
+
 - InGaAs sensor specific features.
 
 ### Recorded Data Area
