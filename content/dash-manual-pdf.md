@@ -134,7 +134,7 @@ click the note field to type in notes specific to individual spectra.
 ### Subtracting blanks
 The **Blank Spectrum** button is used to assign a particular spectrum from
 the history as a "Blank Spectrum". Any spectrum viewed after assigning a
-blank has the blankk spectrum subtracted from it. To remove the blank
+blank has the blank spectrum subtracted from it. To remove the blank
 spectrum designation, choose the blank spectrum and click the **Remove
 Blank Spectrum** button. Note that if the spectrum history is saved to
 file, only the raw data is saved, not the blank subtracted spectra.
